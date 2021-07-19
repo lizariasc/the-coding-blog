@@ -56,7 +56,6 @@ router.post('/', (req, res) => {
       username: req.body.username,
       email: req.body.email,
       password: req.body.password,
-      twitter: req.body.twitter,
       github: req.body.github
     })
     .then(dbUserData => {
